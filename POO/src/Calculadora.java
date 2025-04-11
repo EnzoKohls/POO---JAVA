@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class Calculadora {
@@ -11,13 +13,8 @@ public class Calculadora {
         num1 = sc.nextDouble();
         System.out.println("Escreva o segundo valor: ");
         num2 = sc.nextDouble();
-        System.out.println("Opção de calculo: ");
-        System.out.println("1 - Adição");
-        System.out.println("2 - Subtração");
-        System.out.println("3 - Multiplicação");
-        System.out.println("4 - Divisão");
-        System.out.println("Escolha: ");
-        tipoCalculo = sc.nextInt();
+
+        tipoCalculo = opcaoCalculo();
 
         if (tipoCalculo == 1) {
             System.out.println("O Resultado é: " + (num1 + num2));
@@ -28,5 +25,17 @@ public class Calculadora {
         } else if (tipoCalculo == 4) {
             System.out.println("O Resultado é: " + (num1 / num2));
         }
+    }
+
+    public static int opcaoCalculo() {
+        System.out.println("Opção de calculo: ");
+        System.out.println("1 - Adição");
+        System.out.println("2 - Subtração");
+        System.out.println("3 - Multiplicação");
+        System.out.println("4 - Divisão");
+        System.out.println("Escolha: ");
+
+        int tipoCalculo = sc.nextInt();
+        return tipoCalculo;
     }
 }
