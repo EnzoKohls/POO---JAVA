@@ -1,19 +1,17 @@
-package AtividedeDeEstudo;
-
-import java.util.function.DoubleToIntFunction;
+package Questao_1;
 
 public class Pessoa {
-        private String nome;
-        private int idade;
+    private String nome;
+    private int idade;
 
-        public Pessoa(String nome, int idade) {
-            this.nome = nome;
-            this.idade = idade;
-        }
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
 
-        public Pessoa() {
+    public Pessoa() {
 
-        }
+    }
 
     public String getNome() {
         return nome;
@@ -39,4 +37,3 @@ public class Pessoa {
                 '}';
     }
 }
-
