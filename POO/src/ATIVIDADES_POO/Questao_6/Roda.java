@@ -1,4 +1,4 @@
-package ATIVIDADES_POO.Questao_1.Questao_6;
+package ATIVIDADES_POO.Questao_6;
 
 public class Roda {
     private String cor;

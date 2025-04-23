@@ -1,4 +1,4 @@
-package ATIVIDADES_POO.Questao_1.Questao_7;
+package ATIVIDADES_POO.Questao_7;
 
 import java.util.Scanner;
 

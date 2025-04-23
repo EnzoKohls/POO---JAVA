@@ -1,4 +1,4 @@
-package ATIVIDADES_POO.Questao_1.Questao_8;
+package ATIVIDADES_POO.Questao_8;
 
 public class Endereco {
     private String rua;

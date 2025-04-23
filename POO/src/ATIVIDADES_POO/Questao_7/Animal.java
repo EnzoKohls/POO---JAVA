@@ -1,4 +1,4 @@
-package ATIVIDADES_POO.Questao_1.Questao_7;
+package ATIVIDADES_POO.Questao_7;
 
 public class Animal {
     private String nome;

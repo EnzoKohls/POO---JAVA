@@ -1,4 +1,4 @@
-package ATIVIDADES_POO.Questao_1.Questao_2;
+package ATIVIDADES_POO.Questao_2;
 
 public class Carro {
     private String marca;
