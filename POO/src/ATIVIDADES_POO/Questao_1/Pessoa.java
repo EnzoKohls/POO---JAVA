@@ -1,4 +1,4 @@
-package Questao_1;
+package ATIVIDADES_POO.Questao_1;
 
 public class Pessoa {
     private String nome;

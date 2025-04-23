@@ -1,4 +1,4 @@
-package Questao_5;
+package ATIVIDADES_POO.Questao_1.Questao_5;
 
 public class Produto {
     private String nome;

@@ -1,6 +1,4 @@
-package Questao_4;
-
-import AtividedeDeEstudo.Funcionario;
+package ATIVIDADES_POO.Questao_1.Questao_4;
 
 import java.util.Scanner;
 
