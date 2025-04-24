@@ -1,6 +1,5 @@
-package Atv_3;
+package Avaliacao.Atv_3;
 
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class DadosAtividade3 {

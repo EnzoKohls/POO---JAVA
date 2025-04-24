@@ -1,6 +1,4 @@
-package Atv_3;
-
-import java.math.BigDecimal;
+package Avaliacao.Atv_3;
 
 public class Atividade3 {
     //criacao da classe e atributos

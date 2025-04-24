@@ -1,4 +1,4 @@
-package Atv_4;
+package Avaliacao.Atv_4;
 
 public class Atividade4 {
     //criacao da classe e atributos

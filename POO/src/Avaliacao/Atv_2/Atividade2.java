@@ -1,4 +1,4 @@
-package Atv_2;
+package Avaliacao.Atv_2;
 
 public class Atividade2 {
 
