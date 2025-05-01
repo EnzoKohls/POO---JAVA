@@ -24,10 +24,10 @@ public class DadosAtividade2 {
         atividade1.setEmail(sc.next());
 
         //criacao do if para dados incorretos
-        if (atividade1.getCPF() < 14) {
+        if (atividade1.getCPF() < 15) {
             throw new IllegalArgumentException("Valor de CPF inválido");
         }
-        if (atividade1.getCPF() > 14) {
+        if (atividade1.getCPF() > 13) {
             throw new IllegalArgumentException("Valor de CPF inválido");
         }
 

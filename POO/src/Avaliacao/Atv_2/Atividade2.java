@@ -1,5 +1,7 @@
 package Avaliacao.Atv_2;
 
+import java.util.Scanner;
+
 public class Atividade2 {
 
     //criacao da classe e atributos

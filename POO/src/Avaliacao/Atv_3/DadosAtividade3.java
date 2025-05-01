@@ -9,8 +9,6 @@ public class DadosAtividade3 {
     //criacao do main
     public static void main(String[] args) {
 
-
-
         //criacao dos "Usuarios"
         Atividade3 atividade1 = new Atividade3();
         Atividade3 atividade2 = new Atividade3();
