@@ -5,23 +5,11 @@ public class Retangulo extends FormaGeometrica{
     private double altura;
     private double comprimento;
 
-    public Retangulo(String cor) {
-        super(cor);
-    }
-
     public Retangulo(String cor, double largura, double altura, double comprimento) {
         super(cor);
         this.largura = largura;
         this.altura = altura;
         this.comprimento = comprimento;
-    }
-
-    public double getLargura() {
-        return largura;
-    }
-
-    public void setLargura(double largura) {
-        this.largura = largura;
     }
 
     public double getAltura() {
@@ -30,6 +18,14 @@ public class Retangulo extends FormaGeometrica{
 
     public void setAltura(double altura) {
         this.altura = altura;
+    }
+
+    public double getLargura() {
+        return largura;
+    }
+
+    public void setLargura(double largura) {
+        this.largura = largura;
     }
 
     public double getComprimento() {
@@ -41,17 +37,17 @@ public class Retangulo extends FormaGeometrica{
     }
 
     @Override
-    public double calcularPerimetro() {
-        return (this.largura + this.largura) * 2;
+    public double calculaPerimetro() {
+        return (this.largura + this.altura) * 2;
     }
 
     @Override
     public double calculaArea() {
-        return this.largura * this.largura;
+        return this.largura * this.altura;
     }
 
     @Override
-    public double calcularVolume() {
+    public double calculaVolume() {
         return (this.largura * this.comprimento) * this.altura;
     }
 }
