@@ -15,7 +15,8 @@ public class Main {
                     "Opções: \n" +
                             "0. Sair \n" +
                             "1. Quadrado\n" +
-                            "2. Retângulo\n");
+                            "2. Retângulo\n" +
+                            "3. Círculo\n");
             opcao = sc.nextInt();
 
             switch (opcao) {
@@ -97,7 +98,47 @@ public class Main {
 
                     break;
                 }
-            }
+
+                case 3: {
+                    System.out.println("Digite a cor do círculo: ");
+                    String cor = sc.next();
+                    System.out.println("Digite a area do círculo: ");
+                    double area = sc.nextDouble();
+                    System.out.println("Digite o raio do círculo: ");
+                    double altura = sc.nextDouble();
+                    System.out.println("Digite a circunferencia do círculo: ");
+                    double comprimento = sc.nextDouble();
+
+                    Circulo circulo = new Circulo(String cor, double area, double raio, double circunferencia, double diametro);
+
+                    int opcao4;
+                    do {
+                        opcao4 = menuCalculoCirculo();
+
+                        if (opcao4 < 0 || opcao4 > 3) {
+                            System.out.println("Opção Invalida!");
+                        }
+
+                        switch (opcao4) {
+                            case 1: {
+                                System.out.println("Largura: " + circulo.calculaPerimetro());
+                                break;
+                            }
+                            case 2: {
+                                System.out.println("Altura: " + circulo.calculaArea());
+                                break;
+                            }
+                            case 3: {
+                                System.out.println("Comprimento: " + circulo.calculaVolume());
+                                break;
+                            }
+                        }
+
+                    } while (opcao4 != 0);
+
+                    break;
+                }
+                }
         } while (opcao != 0);
 
     }
@@ -108,7 +149,9 @@ public class Main {
                 + "0. Voltar \n"
                 + "1. Perimetro\n"
                 + "2. Area\n"
-                + "3. Volume\n");
+                + "3. Volume\n"
+                + "4. Raio\n"
+                + "5. Área\n");
         return sc.nextInt();
     }
 
@@ -116,10 +159,23 @@ public class Main {
         System.out.println("Qual calculo deseja fazer?");
         System.out.println("Opções: \n"
                 + "0. Voltar \n"
-                + "1. Largura\n"
-                + "2. Altura\n"
-                + "3. Comprimento\n");
+                + "1. Perimetro\n"
+                + "2. Area\n"
+                + "3. Volume\n"
+                + "4. Raio\n"
+                + "5. Área\n");
         return sc.nextInt();
+    }
 
+    static public int menuCalculoCirculo () {
+        System.out.println("Qual calculo deseja fazer?");
+        System.out.println("Opções: \n"
+                + "0. Voltar \n"
+                + "1. Perimetro\n"
+                + "2. Area\n"
+                + "3. Volume\n"
+                + "4. Raio\n"
+                + "5. Área\n");
+        return sc.nextInt();
     }
 }
