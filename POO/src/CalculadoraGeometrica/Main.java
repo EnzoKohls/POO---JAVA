@@ -1,3 +1,4 @@
+/*
 package CalculadoraGeometrica;
 
 import java.sql.SQLOutput;
@@ -178,4 +179,4 @@ public class Main {
                 + "5. Área\n");
         return sc.nextInt();
     }
-}
+}*/
