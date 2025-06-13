@@ -18,16 +18,16 @@ public class Cachorro extends Animal{
 
     @Override
     public void emitirSom() {
-        System.out.println("Au Au");
+        System.out.println("aaaaaaa");
     }
 
     @Override
     public void comer() {
-        System.out.println("O Chacorro come ração");
+
     }
 
     @Override
     public void exibirInformacoes() {
-        System.out.println("Viralata");
+
     }
 }
