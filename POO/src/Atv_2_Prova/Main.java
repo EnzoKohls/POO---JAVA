@@ -14,8 +14,8 @@ public class Main {
         funcionario.add(new SuporteTecnico("Tobi", "11122233377", 8000));
 
         for (Funcionario funcionario1 : funcionario) {
-            funcionario.exibirCargo();
-            funcionario.calcularBonus();
+            funcionario1.exibirCargo();
+            funcionario1.calcularBonus();
             funcionario1.exibirInformacoes();
             System.out.println("-----");
         }
